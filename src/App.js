@@ -26,7 +26,7 @@ function App() {
   const addTodo = text => {
     const newTodos = [...todos,{text,complete:false}]
     setTodos(newTodos)
-    console.log(newTodos)
+    // console.log(newTodos)
   }
 
   const removeTodo = index => {
@@ -39,7 +39,7 @@ const completeTodo = index => {
   const newTodos = [...todos]
   newTodos[index].complete =! newTodos[index].complete
   setTodos(newTodos)
-  console.log(newTodos)
+  // console.log(newTodos)
 }
 
   return (
