@@ -4,7 +4,7 @@ import './App.css';
 import { Button, Container, Form, Input, InputGroup, Table, } from 'reactstrap'; 
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: "AIzaSyDdl6_plSkLnCbJ3IiiQNgG7HH96-Xi-es",
+  apiKey: "",
   authDomain: "react-firebase-hosting-todoapp.firebaseapp.com",
   projectId: "react-firebase-hosting-todoapp",
   storageBucket: "react-firebase-hosting-todoapp.appspot.com",
